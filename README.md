@@ -45,13 +45,23 @@ $ python3
 <br/>
 
 **Creating Dice**
+
 Die have two properties: *Faces* and *Weights*. All die are initialized with *all* weights set as $1.0$. 
 To create a die, we first supply the face values.  
 
 For the sake of example, let's say we're rolling a Magic 8-Ball.
 ```
-magic_ball = Die(['Yes', 'Maybe', 'Never', 'I'm Not Sure', 'Without a Doubt'])
+>>> magic_ball = Die(['Yes', 'Maybe', 'Never', 'I'm Not Sure - Roll Again', 'Without a Doubt'])
 ```
+
+As we all know, Magic 8-Ball's tend to show us what we want to hear, i.e. have a slight bias towards the more affirmative responses.
+To mimic this bias, let's change the weights of the positive responses:
+
+```
+>>> magic_ball.change_weight('Yes', 2)
+>>> magic_ball.change_weight('Without a Doubt', 3)
+```
+
 
 <br/>
 
