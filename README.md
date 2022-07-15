@@ -27,7 +27,13 @@ To actually install the package, then run the command ```!pip install -e .``` .
 
 **Importing**
 
+To import the three classes (Die, Game, and Analyzer) within the montecarlo.py file from the package, simply run: 
 
+```
+python3
+
+from montecarlo_simulator.montecarlo import Die, Game, Analyzer 
+```
 <br/>
 
 **Creating Dice**
