@@ -50,7 +50,7 @@ Die have two properties: *Faces* and *Weights*. All die are initialized with *al
 To create a die, we first supply the face values.  
 
 For the sake of example, let's say we're rolling a Magic 8-Ball.
-```
+```python
 >>> magic_ball = Die(['Yes', 'Maybe', 'Never', "I'm Not Sure - Roll Again", 'Without a Doubt'])
 ```
 
