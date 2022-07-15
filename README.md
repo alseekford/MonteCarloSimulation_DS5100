@@ -91,7 +91,7 @@ To do that, we can pass four magic balls to our game!
 ```
 Note: all die passed do NOT need to be the same, but similar (i.e. same number of faces)
 
-To roll each die 3 times:
+To roll each ball 3 times:
 ```python 
 >>> magic_game.play(3)
 ```
@@ -105,6 +105,19 @@ To see the DataFrame of results for each of you and your friends magic balls:
 
 **Analyzing Games**
 
+Let's analyze our results! To do so, first we initialize.
+
+```python
+>>> magic_analyzer = Analyzer(magic_game)
+```
+
+From there, we can calculate the number of *Jackpots*, *Combinations*, and see the *value counts* of each Face rolled.
+
+```python
+jackpots = magic_analyzer.jackpot()
+combinations = magic_analyzer.combo()
+answer_counts = magic_analyzer.faces_per_roll()
+```
 
 <br/>
 
