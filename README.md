@@ -125,17 +125,33 @@ answer_counts = magic_analyzer.faces_per_roll()
 
 Contains descriptions of all three classes (Die, Game, and Analzyer) and their corresponding methods and attributes.
 
-#### class Die
+### class Die
 
-**class Die** 
+**__init__(self)** 
 
-#### class Game
+**change_weight()**
 
-g
+**roll_die()**
 
-#### class Analyzer
+**show_die()**
 
-a
+### class Game
+
+**__init__(self)**
+
+**play(self)**
+
+**show_results(self)**
+
+### class Analyzer
+
+**__init__**
+
+**jackpot(self)**
+
+**combo(self)**
+
+**faces_per_roll**
 
 
 <br/>
