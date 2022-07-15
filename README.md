@@ -127,7 +127,18 @@ Contains descriptions of all three classes (Die, Game, and Analzyer) and their c
 
 ### class Die
 
-**__init__** 
+**__init__()** 
+```python
+def __init__(self, faces):
+        """
+        PURPOSE: Initializes the Die class
+
+        INPUTS: 
+        faces      arr
+
+        OUTPUTS: No outputs
+        """
+```
 
 **change_weight()**
 ```python
@@ -144,26 +155,122 @@ def change_weight(self, face_value, new_weight)
 ```
 
 **roll_die()**
+```python
+def roll_die(self, n_rolls=1):
+        """
+        PURPOSE: Rolls the die n times and returns the result.
+            
+        INPUTS: 
+        n_rolls     int; default=1
+
+        OUTPUTS: Returns a list of the results.
+        """
+```
 
 **show_die()**
+```python
+def show_die(self):
+        """
+        PURPOSE: Prints the current die and corresponding weights.
+
+        INPUTS: No inputs
+
+        OUTPUTS: Returns the current die as a DataFrame
+        """
+```
 
 ### class Game
 
-**__init__(self)**
+**__init__()**
+```python
+def __init__(self, my_dice):
+        """
+        PURPOSE: Initializes a list of already-instantiated Die objects.
 
-**play(self)**
+        INPUTS: 
+        my_dice     arr
 
-**show_results(self)**
+        OUTPUTS: No outputs
+```
+
+**play()**
+```python
+def play(self, n_rolls):
+        """
+        PURPOSE: Rolls each die n_rolls number of times and returns the result of the most recent play.
+        
+        INPUTS:
+        n_rolls   int
+
+        OUTPUTS: No outputs
+        """
+```
+
+**show_results()**
+```python
+def show_results(self, n_or_w= 'wide'):
+        """
+        PURPOSE: Shows you, as the user, the results of the most recent play. 
+        
+        INPUTS:
+        n_or_w     str; must be either 'narrow' or 'wide'
+        
+        OUTPUTS: A dataframe with results - in either wide or narrow form.
+        """
+```
 
 ### class Analyzer
 
-**__init__**
+**__init__()**
+```python
+def __init__(self, my_game):
+        """
+        PURPOSE: Initializes the Game.show_results and Die.show_die
 
-**jackpot(self)**
+        INPUTS: A game object
 
-**combo(self)**
+        OUTPUTS: No outputs
+        """
+```
 
-**faces_per_roll**
+**jackpot()**
+```python
+def jackpot(self):
+        """
+        PURPOSE: How many times a roll resulted in all faces being the same
+                 Ex. all one for a six-sided die.
+
+        INPUTS: No inputs
+
+        OUTPUTS: Returns the number of Jackpots (int).
+        """
+```
+
+**combo()**
+```python
+def combo(self):
+        """
+        PURPOSE: How many combination types of faces were rolled and their counts
+
+        INPUTS: No inputs.
+
+        OUTPUTS: Returns a DataFrame of Combos
+        """
+```
+
+**faces_per_roll()**
+```python
+def faces_per_roll(self):
+        """
+        PURPOSE: The number of times a given face appeared in each roll. 
+                 Ex. if a roll of five dice has all sixes, then the counts 
+                 for this roll would be 6 for the face value '6' and 0 for the other faces
+        
+        INPUTS: No inputs
+
+        OUTPUTS: Returns a Series of the Face values
+        """
+```
 
 
 <br/>
