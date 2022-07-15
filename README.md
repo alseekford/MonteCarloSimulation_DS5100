@@ -12,5 +12,14 @@ DS5100 Final Project
 ## Manifest  
 File directory of repo:
 ```
-
+montecarlo_simulator
+  __init__.py
+  montecarlo.py
+.gitignore
+LICENSE
+README.md
+mc_scenarios.ipynb
+montecarlo_test.py
+montecarlo_test.txt
+setup.py
 ```
