@@ -54,8 +54,9 @@ To actually install the package, then run the command ```!pip install -e .``` .
 File directory of repo:
 ```
 montecarlo_simulator
-  __init__.py
-  montecarlo.py
+    __init__.py
+    montecarlo.py
+
 .gitignore
 LICENSE
 README.md
