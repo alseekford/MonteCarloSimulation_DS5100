@@ -16,10 +16,12 @@ To install the ```montecarlo_simulator``` package, begin by cloning this GitHub 
 ```
 git clone https://github.com/alseekford/MonteCarloSimulation_DS5100.git
 ``` 
-and 
+and go into the file
 ```
 cd MonteCarloSimulation_DS51000
-```
+```  
+
+To actually install the package, ```!pip install -e .```.
 
 
 
