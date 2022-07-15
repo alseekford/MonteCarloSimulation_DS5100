@@ -127,9 +127,21 @@ Contains descriptions of all three classes (Die, Game, and Analzyer) and their c
 
 ### class Die
 
-**/__init__(self)** 
+**__init__** 
 
 **change_weight()**
+```python
+def change_weight(self, face_value, new_weight)
+        """
+        PURPOSE: Changes the weight value of a designated face.
+        
+        INPUTS:
+        face_value   str
+        new_weight   float
+
+        OUTPUTS: Raises an Exception if the new weight is not a float or int value.
+        """
+```
 
 **roll_die()**
 
