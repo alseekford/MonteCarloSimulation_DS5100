@@ -139,7 +139,7 @@ Contains descriptions of all three classes (Die, Game, and Analzyer) and their c
     """
 ```
 
-**__init__()** 
+ - **__init__()** 
 ```python
 def __init__(self, faces):
         """
