@@ -253,8 +253,8 @@ class MonteCarloTestSuite(unittest.TestCase):
         self.assertTrue(len(comboo.columns) == 1)
         
         
-unittest.main(argv=['first-arg-is-ignored'], exit=False);           
+# unittest.main(argv=['first-arg-is-ignored'], exit=False);           
 
-# if __name__ == '__main__':
-#     unittest.main(verbosity=3)        
+if __name__ == '__main__':
+    unittest.main(verbosity=3)        
     
