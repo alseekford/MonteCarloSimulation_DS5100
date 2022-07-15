@@ -1,3 +1,9 @@
+"""
+AUTHOR: Anne Louise Seekford
+CONTACT: bng3be@virginia.edu
+"""
+
+
 import pandas as pd
 import numpy as np
 
