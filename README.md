@@ -191,8 +191,7 @@ def show_die(self):
         """
 ```
 
-- **Attributes**:
--   x
+- **Attributes**: ```faces```
 
 ### class Game
 
@@ -245,7 +244,7 @@ def show_results(self, n_or_w= 'wide'):
         """
 ```
 
-- **Attributes**:
+- **Attributes**: ``my_dice ; as an array of Die objects```
 
 ### class Analyzer
 
@@ -311,6 +310,8 @@ def faces_per_roll(self):
         OUTPUTS: Returns a Series of the Face values
         """
 ```
+
+- **Attributes**: ```my_game```
 
 
 <br/>
