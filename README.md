@@ -123,6 +123,20 @@ answer_counts = magic_analyzer.faces_per_roll()
 
 ## API Description  
 
+Contains descriptions of all three classes (Die, Game, and Analzyer) and their corresponding methods and attributes.
+
+#### class Die
+
+s
+
+#### class Game
+
+g
+
+#### class Analyzer
+
+a
+
 
 <br/>
 
