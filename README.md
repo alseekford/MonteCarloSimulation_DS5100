@@ -71,7 +71,7 @@ Which will return our current die:
 
 <p align="center">
   <img width="188" alt="Screen Shot 2022-07-15 at 3 25 07 PM" src="https://user-images.githubusercontent.com/71660299/179297082-c5feda06-c270-4be7-a56d-713d76942c88.png">
-<\p>
+</p>
 
 
 
