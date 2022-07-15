@@ -127,6 +127,18 @@ Contains descriptions of all three classes (Die, Game, and Analzyer) and their c
 
 ### class Die
 
+```
+    """
+    PURPOSE: Creates a die with n Faces and w Weights. Can be rolled to select a face
+
+    METHODS: 
+    __init__
+    change_weight
+    roll_die
+    show_die
+    """
+```
+
 **__init__()** 
 ```python
 def __init__(self, faces):
@@ -142,7 +154,7 @@ def __init__(self, faces):
 
 **change_weight()**
 ```python
-def change_weight(self, face_value, new_weight)
+def change_weight(self, face_value, new_weight):
         """
         PURPOSE: Changes the weight value of a designated face.
         
@@ -180,6 +192,17 @@ def show_die(self):
 ```
 
 ### class Game
+
+```
+    """
+    PURPOSE: A game consists of rolling one or more dice of the same kind one or more times.
+
+    METHODS: 
+    __init__
+    play
+    show_results
+    """
+```
 
 **__init__()**
 ```python
@@ -220,6 +243,18 @@ def show_results(self, n_or_w= 'wide'):
 ```
 
 ### class Analyzer
+
+```
+    """
+    PURPOSE: Takes the results of a single game and computes various descriptive statistical properties about it. 
+    
+    METHODS: 
+    __init__
+    faces_per_roll
+    jackpot
+    combo
+    """
+```
 
 **__init__()**
 ```python
