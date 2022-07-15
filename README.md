@@ -89,7 +89,7 @@ To do that, we can pass four magic balls to our game!
 ```
 >>> magic_game = Die([magic_ball, magic_ball, magic_ball, magic_ball])
 ```
-      Note: all die passed do NOT need to be the same, but similar (i.e. same number of faces)
+Note: all die passed do NOT need to be the same, but similar (i.e. same number of faces)
 
 <br/>
 
