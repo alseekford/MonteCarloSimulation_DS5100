@@ -51,7 +51,7 @@ To create a die, we first supply the face values.
 
 For the sake of example, let's say we're rolling a Magic 8-Ball.
 ```
->>> magic_ball = Die(['Yes', 'Maybe', 'Never', 'I'm Not Sure - Roll Again', 'Without a Doubt'])
+>>> magic_ball = Die(['Yes', 'Maybe', 'Never', "I'm Not Sure - Roll Again", 'Without a Doubt'])
 ```
 
 As we all know, Magic 8-Ball's tend to show us what we want to hear - i.e. have a slight bias towards the more affirmative responses.  
