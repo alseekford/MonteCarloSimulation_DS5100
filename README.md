@@ -14,11 +14,11 @@ Package:
 **Installation**  
 
 To install the ```montecarlo_simulator``` package, begin by cloning this GitHub Repository. You can do this in your local machine's terminal by typing:
-```
+```python
 $ git clone https://github.com/alseekford/MonteCarloSimulation_DS5100.git
 ``` 
 Next, go into the file directory by:
-```
+```python
 $ cd MonteCarloSimulation_DS51000
 ```   
 <br/>
@@ -37,7 +37,7 @@ Successfully installed MonteCarlo-DS5100
 
 To import the three classes (Die, Game, and Analyzer) within the montecarlo.py file from the package, simply run: 
 
-```
+```python
 $ python3
 
 >>> from montecarlo_simulator.montecarlo import Die, Game, Analyzer 
@@ -58,13 +58,13 @@ As we all know, Magic 8-Ball's tend to show us what we want to hear - i.e. have 
 
 To mimic this bias, let's change the weights of the positive responses:
 
-```
+```python
 >>> magic_ball.change_weight('Yes', 2)
 >>> magic_ball.change_weight('Without a Doubt', 3)
 ```
 
 To check and ensure the weights were properly changed, we can run:
-```
+```python
 >>> magic_ball.show_die()
 ```
 Which will return our current die:
@@ -76,7 +76,7 @@ Which will return our current die:
 
 
 Now, we can roll our die! Let's just roll one time.
-```
+```python
 >>> magic_ball.roll_die(1)
 ```
 
