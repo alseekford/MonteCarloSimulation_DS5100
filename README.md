@@ -45,7 +45,7 @@ $ python3
 <br/>
 
 **Creating Dice**
-
+Die have two properties: *Faces* and *Weights*. All die are initialized with *all* weights as $1.0$. 
 
 <br/>
 
