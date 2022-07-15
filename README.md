@@ -60,6 +60,7 @@ montecarlo_simulator
 .gitignore
 LICENSE
 README.md
+final-project-submission.ipynb
 mc_scenarios.ipynb
 montecarlo_test.py
 montecarlo_test.txt
