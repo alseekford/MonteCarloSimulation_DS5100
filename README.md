@@ -12,7 +12,11 @@ Package:
 ## Synopsis  
 
 **Installation**  
-To install the ```montecarlo_simulator``` package, begin by cloning this GitHub Repository.
+To install the ```montecarlo_simulator``` package, begin by cloning this GitHub Repository. You can do this by typing:
+```
+git clone https://github.com/alseekford/MonteCarloSimulation_DS5100.git
+```
+in your local machine's terminal.
 
 **Importing**
 
