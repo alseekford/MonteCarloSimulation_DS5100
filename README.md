@@ -11,7 +11,7 @@ Package:
 
 ## Synopsis  
 
-**Installation**
+**Installation**  
 To install the ```montecarlo_simulator``` package, begin by cloning this GitHub Repository.
 
 **Importing**
