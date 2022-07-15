@@ -11,6 +11,16 @@ Package:
 
 ## Synopsis  
 
+**Installation**
+
+**Importing**
+
+**Creating Dice**
+
+**Playing Games**
+
+**Analyzing Games**
+
 ## API Description  
 
 ## Manifest  
