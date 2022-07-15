@@ -127,7 +127,7 @@ Contains descriptions of all three classes (Die, Game, and Analzyer) and their c
 
 ### class Die
 
-**__init__(self)** 
+**/__init__(self)** 
 
 **change_weight()**
 
