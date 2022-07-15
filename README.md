@@ -5,8 +5,9 @@ DS5100 Final Project
 
 ## Metadata  
 
-Author: Anne Louise Seekford
-Package: montecarlo_simulator
+Author: Anne Louise Seekford  
+Package: 
+```montecarlo_simulator```
 
 ## Synopsis  
 
