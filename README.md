@@ -84,6 +84,12 @@ Now, we can roll our die! Let's just roll one time.
 
 **Playing Games**
 
+To continue on with the Magic 8-Ball example, let's say you and three friends all want to ask the magic ball a question simultaneously.
+To do that, we can pass four magic balls to our game!
+```
+>>> magic_game = Die([magic_ball, magic_ball, magic_ball, magic_ball])
+```
+Note: all die passed do NOT need to be the same, but similar (i.e. same number of faces)
 
 <br/>
 
