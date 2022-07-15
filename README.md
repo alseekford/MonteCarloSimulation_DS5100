@@ -27,13 +27,28 @@ To actually install the package, then run the command ```!pip install -e .``` .
 
 **Importing**
 
+
+<br/>
+
 **Creating Dice**
+
+
+<br/>
 
 **Playing Games**
 
+
+<br/>
+
 **Analyzing Games**
 
+
+<br/>
+
 ## API Description  
+
+
+<br/>
 
 ## Manifest  
 File directory of repo:
