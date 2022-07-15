@@ -114,9 +114,9 @@ Let's analyze our results! To do so, first we initialize.
 From there, we can calculate the number of *Jackpots*, *Combinations*, and see the *value counts* of each Face rolled.
 
 ```python
-jackpots = magic_analyzer.jackpot()
-combinations = magic_analyzer.combo()
-answer_counts = magic_analyzer.faces_per_roll()
+>>> jackpots = magic_analyzer.jackpot()
+>>> combinations = magic_analyzer.combo()
+>>> answer_counts = magic_analyzer.faces_per_roll()
 ```
 
 <br/>
@@ -152,7 +152,7 @@ def __init__(self, faces):
         """
 ```
 
-**change_weight()**
+- **change_weight()**
 ```python
 def change_weight(self, face_value, new_weight):
         """
@@ -166,7 +166,7 @@ def change_weight(self, face_value, new_weight):
         """
 ```
 
-**roll_die()**
+- **roll_die()**
 ```python
 def roll_die(self, n_rolls=1):
         """
@@ -179,7 +179,7 @@ def roll_die(self, n_rolls=1):
         """
 ```
 
-**show_die()**
+- **show_die()**
 ```python
 def show_die(self):
         """
@@ -190,6 +190,9 @@ def show_die(self):
         OUTPUTS: Returns the current die as a DataFrame
         """
 ```
+
+- **Attributes**:
+-   x
 
 ### class Game
 
@@ -204,7 +207,7 @@ def show_die(self):
     """
 ```
 
-**__init__()**
+- **__init__()**
 ```python
 def __init__(self, my_dice):
         """
@@ -216,7 +219,7 @@ def __init__(self, my_dice):
         OUTPUTS: No outputs
 ```
 
-**play()**
+- **play()**
 ```python
 def play(self, n_rolls):
         """
@@ -229,7 +232,7 @@ def play(self, n_rolls):
         """
 ```
 
-**show_results()**
+- **show_results()**
 ```python
 def show_results(self, n_or_w= 'wide'):
         """
@@ -241,6 +244,8 @@ def show_results(self, n_or_w= 'wide'):
         OUTPUTS: A dataframe with results - in either wide or narrow form.
         """
 ```
+
+- **Attributes**:
 
 ### class Analyzer
 
@@ -256,7 +261,7 @@ def show_results(self, n_or_w= 'wide'):
     """
 ```
 
-**__init__()**
+- **__init__()**
 ```python
 def __init__(self, my_game):
         """
@@ -268,7 +273,7 @@ def __init__(self, my_game):
         """
 ```
 
-**jackpot()**
+- **jackpot()**
 ```python
 def jackpot(self):
         """
@@ -281,7 +286,7 @@ def jackpot(self):
         """
 ```
 
-**combo()**
+- **combo()**
 ```python
 def combo(self):
         """
@@ -293,7 +298,7 @@ def combo(self):
         """
 ```
 
-**faces_per_roll()**
+- **faces_per_roll()**
 ```python
 def faces_per_roll(self):
         """
