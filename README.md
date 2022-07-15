@@ -63,6 +63,15 @@ To mimic this bias, let's change the weights of the positive responses:
 >>> magic_ball.change_weight('Without a Doubt', 3)
 ```
 
+To check and ensure the weights were properly changed, we can run:
+```
+>>> magic_ball.show_die()
+```
+
+Now, we can roll our die! Let's just roll one time.
+```
+>>> magic_ball.roll_die(1)
+```
 
 <br/>
 
