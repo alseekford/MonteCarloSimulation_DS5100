@@ -244,7 +244,7 @@ def show_results(self, n_or_w= 'wide'):
         """
 ```
 
-- **Attributes**: ``my_dice ; as an array of Die objects```
+- **Attributes**: ```my_dice ; as an array of Die objects```
 
 ### class Analyzer
 
