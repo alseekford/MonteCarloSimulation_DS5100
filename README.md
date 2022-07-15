@@ -24,6 +24,13 @@ $ cd MonteCarloSimulation_DS51000
 <br/>
 
 To actually install the package, then run the command ```$ !pip install -e .``` .  
+If installation was successful, you should see something like 
+```m
+Obtaining file:///Users/alseekford/5100/final/MonteCarloSimulation_DS5100
+Installing collected packages: MonteCarlo-DS5100
+  Running setup.py develop for MonteCarlo-DS5100
+Successfully installed MonteCarlo-DS5100
+```
 <br/>
 
 **Importing**
