@@ -20,7 +20,7 @@ and go into the file directory by:
 ```
 cd MonteCarloSimulation_DS51000
 ```   
-.
+  
 
 To actually install the package, then run the command ```!pip install -e .``` .
 
