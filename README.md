@@ -14,15 +14,15 @@ Package:
 **Installation**  
 To install the ```montecarlo_simulator``` package, begin by cloning this GitHub Repository. You can do this in your local machine's terminal by typing:
 ```
-git clone https://github.com/alseekford/MonteCarloSimulation_DS5100.git
+$ git clone https://github.com/alseekford/MonteCarloSimulation_DS5100.git
 ``` 
 and go into the file directory by:
 ```
-cd MonteCarloSimulation_DS51000
+$ cd MonteCarloSimulation_DS51000
 ```   
 <br/>
 
-To actually install the package, then run the command ```!pip install -e .``` .  
+To actually install the package, then run the command ```$ !pip install -e .``` .  
 <br/>
 
 **Importing**
@@ -30,9 +30,9 @@ To actually install the package, then run the command ```!pip install -e .``` .
 To import the three classes (Die, Game, and Analyzer) within the montecarlo.py file from the package, simply run: 
 
 ```
-python3
+$ python3
 
-from montecarlo_simulator.montecarlo import Die, Game, Analyzer 
+>>> from montecarlo_simulator.montecarlo import Die, Game, Analyzer 
 ```
 <br/>
 
