@@ -84,12 +84,22 @@ Now, we can roll our die! Let's just roll one time.
 
 **Playing Games**
 
-To continue on with the Magic 8-Ball example, let's say you and three friends all want to ask the magic ball a question simultaneously.
+To continue on with the Magic 8-Ball example, let's say you and three friends all want to ask the magic ball questions simultaneously.
 To do that, we can pass four magic balls to our game!
 ```python
 >>> magic_game = Die([magic_ball, magic_ball, magic_ball, magic_ball])
 ```
 Note: all die passed do NOT need to be the same, but similar (i.e. same number of faces)
+
+To roll each die 3 times:
+```python 
+>>> magic_game.play(3)
+```
+
+To see the DataFrame of results for each of you and your friends magic balls:
+```python 
+>>> magic_game.show_results()
+```
 
 <br/>
 
